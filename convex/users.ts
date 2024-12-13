@@ -11,4 +11,4 @@ export const createuser = internalMutation({
   handler: async (ctx, args) => {
     await ctx.db.insert('users', args);
   },
-}); 
+});

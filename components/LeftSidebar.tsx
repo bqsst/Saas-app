@@ -7,7 +7,6 @@ import { sidebarLinks } from '@/constants'
 import { usePathname, useRouter } from 'next/navigation'
 import { cn } from '@/lib/utils'
 
-
 const LeftSidebar = () => {
   const pathname = usePathname()
   const router = useRouter()
