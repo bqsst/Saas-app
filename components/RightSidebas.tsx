@@ -2,7 +2,9 @@ import React from 'react'
 
 const RightSidebas = () => {
   return (
-    <div>RightSidebas</div>
+    <section className="right_sidebar text-white-1">
+      RightSidebas
+    </section>
   )
 }
 
