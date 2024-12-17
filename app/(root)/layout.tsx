@@ -33,5 +33,5 @@ export default function RootLayout({
         <RightSidebas/>
       </main>
     </div>
-  );
+  )
 }
